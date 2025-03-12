@@ -37,6 +37,11 @@ html * {
     rendering-intent: auto;
 }
 
+$heading1Size: 2.0em;
+$heading2Size: 1.6em;
+$heading3Size: 1.2em;
+$heading4Size: 1.0em;
+
 $background: #1A1A2E; // Dark blue background
 $foreground: #EAEAEA; // Light foreground color
 $selection: #44475A;
@@ -57,7 +62,7 @@ $headingColor: $blue;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: $background;
-$linkColor: $darkorange;
+$linkColor: $orange;
 $linkColorHover: $cyan;
 $selectionBackgroundColor: $selection;
 $inlineCodeColor: $green;
@@ -99,5 +104,15 @@ $codeFont: "Fira Code", $systemFontsMono;
     hr {
         border: 1px solid var(--r-rule-color);
     }
+    .slide-number {
+        color: #{$orange};
+        left: 20px;
+        bottom: 12px;
+        background-color: transparent;
+        font-size: 28px;
+        font-family: var(--r-heading-font);
+        font-weight: var(--r-heading-font-weight);
+    }
 }
+
 
