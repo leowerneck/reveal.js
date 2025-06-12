@@ -385,7 +385,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 .reveal .slide-number {
   color: #FFA500;
-  left: 20px;
+  right: 20px;
   bottom: 12px;
   background-color: transparent;
   font-size: 28px;
